@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Portfólio é um projeto resultado da aplicação dos estudos em HTML e Bulma, dessa forma foi criada essa página responsiva que se adapta aos diferentes tamanhos de tela.
+O Portfólio é um projeto resultado da aplicação dos estudos em HTML e o framework Bulma, dessa forma foi criada essa página responsiva que se adapta aos diferentes tamanhos de tela.
 
 ## 🔖 Layout
 
