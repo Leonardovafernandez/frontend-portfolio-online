@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(242, 242, 242, 1);
+    height: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 96px;
+
+    background-color: rgba(242, 242, 242, 1)
+}
+
+.navbar-brand {
+    align-items: center;
+}
+
+.navbar-item img {
+    max-height: 3.5rem;
+    height: 52px;
+    width: 253px;
+}
+
+#navbarBasicExample {
+    box-sizing: border-box;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.navbar-end {
+    box-sizing: border-box;
+
+    height: 36px;
+}
+
+.navbar-end .navbar-item:hover {
+    background-color: rgba(81, 81, 81, 1);
+    color: rgba(250, 250, 250, 1);
+}
+
+.main {
+    margin: 54px 0 0 0;
+}
+
+.main .column:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main .column:last-child {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.about-me {
+    margin-top: 149px;
+}
+
+.about-me:last-child {
+
+    padding: 0;
+}
+
+.sobre-mim {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sobre-mim hr {
+    background-color: rgba(81, 81, 81, .25);
+    margin: 0;
+}
+
+.sobre-mim .tittle-sobre {
+    padding-left: 20px;
+}
+
+
+.sobre-mim .tittle-sobre h2 {
+    font-size: 40px;
+
+}
+
+.sobre-mim .text-sobre {
+    padding-left: 20px;
+}
+
+.sobre-mim .text-sobre span {
+    line-height: 30px;
+
+}
+
+.button-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 204px;
+    height: 48px;
+    border: 1px solid rgba(81, 81, 81, 1);
+    color: rgba(81, 81, 81, 1);
+    font-size: 12px;
+}
+
+.button-portfolio:hover {
+    background-color: rgba(81, 81, 81, 1);
+    color: rgba(250, 250, 250, 1);
+}
+
+
+.white {
+    background-color: white;
+}
+
+.sobre-mim a {
+    align-self: center;
+    text-decoration: none;
+}
+
+.title .column {
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills {
+    margin-top: 149px;
+}
+
+.space-top {
+    margin-top: 65px;
+}
+
+.icons img {
+    height: 70px;
+}
+
+.projetos .card-content {
+    padding: 0;
+}
+
+.icons .column {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    height: 76px;
+    background-color: rgba(81, 81, 81, 1);
+    margin-top: 250px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .content img {
+    height: 52px;
+}
+
+.footer .content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+}
+
+.footer .content ul li a img {
+    height: 25px;
+}

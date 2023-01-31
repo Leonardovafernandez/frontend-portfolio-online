@@ -3,38 +3,47 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="../assets/logo/logo-favicon.svg" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contato - Leonardo Fernandez</title>
   <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="../css/global.css">
 </head>
 
 <body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="../index.html">
-        <img src="../assets/Dimas APP.png" width="112" height="28">
-      </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
+  <section class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
         <a class="navbar-item" href="../index.html">
-          Início
+          <img src="../assets/logo/logo-editor.svg" style="height: 52px;">
         </a>
 
-        <a class="navbar-item" href="./contato.html">
-          Contato
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
       </div>
-    </div>
-  </nav>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="../index.html">
+            Início
+          </a>
+          <a class="navbar-item" href="./portfolio.html">
+            Portfólio
+          </a>
+          <a class="navbar-item" href="./curriculo.html">
+            Currículo
+          </a>
+          <a class="navbar-item" href="./contato.html">
+            Contato
+          </a>
+        </div>
+      </div>
+    </nav>
+  </section>
 
   <section class="container">
     <div class="columns is-3-gapless is-3-multiline is-1-mobile">
@@ -42,7 +51,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="../assets/Portfólio.png" alt="Placeholder image">
+              <img src="../assets/photos/Portfólio.png" alt="Placeholder image">
             </figure>
           </div>
           <div class="card-content">
@@ -52,9 +61,11 @@
               <br>
               <p>(71) 93618-4655</p>
               <p>leonardovafernandez@gmail.com</p>
-              <a href="https://www.linkedin.com/in/leonardo-fernandez-5aa32138/"><img src="../assets/Linkedin.png"> </a>
-              <a href="https://github.com/Leonardovafernandez"><img src="../assets/Github.png"> </a>
-              <a href="https://www.instagram.com/leonardovafernandez/"><img src="../assets/Instagram.png"></a>
+              <a href="https://github.com/Leonardovafernandez"><img src="../assets/icons/icon-github-black.svg"> </a>
+              <a href="https://www.linkedin.com/in/leonardo-fernandez-5aa32138/"><img
+                  src="../assets/icons/icon-linkedin-black.svg"> </a>
+              <a href="https://www.instagram.com/leonardovafernandez/"><img
+                  src="../assets/icons/icon-instagram-black.svg"></a>
             </div>
           </div>
         </div>
@@ -86,10 +97,35 @@
               </div>
             </div>
 
-            <button class="button is-black">Enviar</button>
+            <button class="button-portfolio">ENVIAR</button>
           </form>
         </div>
+      </div>
+    </div>
+  </section>
 
+
+  <footer class=" footer is-full">
+    <section class="container">
+      <div class="content">
+        <img src="../assets/logo/Frame.svg" alt="logo-white">
+        <ul>
+          <li>
+            <a href="https://github.com/Leonardovafernandez"><img src="../assets/icons/icon-github-white.svg"
+                alt="github"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/leonardo-fernandez-5aa32138/"><img
+                src="../assets/icons/icon-linkedin-white.svg" alt="linkedin"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/leonardovafernandez/"><img src="../assets/icons/icon-instagram-white.svg"
+                alt="instagram"></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>
