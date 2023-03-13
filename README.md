@@ -13,7 +13,7 @@ Este é um portfolio pessoal que fiz como forma de estudo e desevolvimento das t
 <br>
 
 <p align="center">
-  <img alt="Portfólio_capa" src="assets/Portfólio_capa.png" width="100%">
+  <img alt="Portfólio_capa" src=".github/portfolio_preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
